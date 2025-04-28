@@ -1,0 +1,337 @@
+{
+    "help": "https://catalog.data.gov/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "1ecd1fb1-1be6-46bb-b90d-07a0762ed104",
+        "id": "2d01324d-5df7-4324-b8db-51f27471715e",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2024-08-03T05:22:39.893392",
+        "metadata_modified": "2024-08-03T05:22:39.893399",
+        "name": "1991-federal-aid-primary-fap1",
+        "notes": "The 1991 Federal Aid Primary (FAP) dataset was compiled on July 28, 2016 from the Federal Highway Administration (FHWA) and is part of the U.S. Department of Transportation (USDOT)/Bureau of Transportation Statistics (BTS) National Transportation Atlas Database (NTAD). The Federal Aid Primary system came into existence on June 1, 1991.",
+        "num_resources": 2,
+        "num_tags": 18,
+        "organization": {
+            "id": "c549d5ce-2b93-4397-ab76-aa2b31d9983a",
+            "name": "dot-gov",
+            "title": "Department of Transportation",
+            "type": "organization",
+            "description": "",
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/US_DOT_Triskelion.png",
+            "created": "2020-11-10T14:13:01.158937",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "c549d5ce-2b93-4397-ab76-aa2b31d9983a",
+        "private": false,
+        "state": "active",
+        "title": "1991 Federal Aid Primary (FAP)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "1991 Federal Aid Primary (FAP)"
+            },
+            {
+                "key": "spatial_harvester",
+                "value": true
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"creation\", \"value\": \"2024-02-07\"}]"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng; USA"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2024-07-25"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "contact-email",
+                "value": "supin.yoder@dot.gov"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "asNeeded"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "progress",
+                "value": "completed"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "licence",
+                "value": "[\"This NTAD dataset is a work of the United States government as defined in 17 U.S.C. \\u00c2\\u00a7 101 and as such are not protected by any U.S. copyrights.\\u00c2\\u00a0This work is available for unrestricted public use.\"]"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Access Constraints: unrestricted\"]"
+            },
+            {
+                "key": "responsible-party",
+                "value": "[{\"name\": \"Federal Highway Administration (FHWA)\", \"roles\": [\"pointOfContact\"]}]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-67"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "71.5"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "18.5"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-171.5"
+            },
+            {
+                "key": "lineage",
+                "value": ""
+            },
+            {
+                "key": "metadata_type",
+                "value": "geospatial"
+            },
+            {
+                "key": "old-spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-171.5, 18.5], [-67.0, 18.5], [-67.0, 71.5], [-171.5, 71.5], [-171.5, 18.5]]]}"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-171.5, 18.5], [-67.0, 18.5], [-67.0, 71.5], [-171.5, 71.5], [-171.5, 18.5]]]}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "23db68f8-e8b9-407c-aeeb-a591feff06b4"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "ee45e034-47c1-4a61-a3ec-de75031e6865"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "National Transportation Atlas Database (NTAD) Metadata"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-03T05:22:39.903868",
+                "description": "An ESRI Geodatabase, ESRI shapefile, or spreadsheet.",
+                "format": "",
+                "hash": "",
+                "id": "bd9c2924-14f7-4a47-a291-559baca2b1a3",
+                "last_modified": null,
+                "metadata_modified": "2024-08-03T05:22:39.861978",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Open Data Catalog",
+                "package_id": "2d01324d-5df7-4324-b8db-51f27471715e",
+                "position": 0,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 0,
+                    "recent": 0
+                },
+                "url": "https://doi.org/10.21949/1530109",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2024-08-03T05:22:39.903873",
+                "description": "ArcGIS Online Hosted Esri Feature Service for visualizing geospatial information",
+                "format": "",
+                "hash": "",
+                "id": "1f6ed025-1947-4066-8c2a-f1efdbef341a",
+                "last_modified": null,
+                "metadata_modified": "2024-08-03T05:22:39.862145",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Esri Feature Service",
+                "package_id": "2d01324d-5df7-4324-b8db-51f27471715e",
+                "position": 1,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 0,
+                    "recent": 0
+                },
+                "url": "https://doi.org/10.21949/1530110",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "advertising",
+                "id": "55f6a0d7-eba7-4e3f-a0c7-21055ec542ed",
+                "name": "advertising",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "aid",
+                "id": "17bf98bc-79a8-470b-9b37-0fd1f2bf049c",
+                "name": "aid",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "atlas",
+                "id": "66b9df8c-a48d-44f1-b107-2ba4ceaf3677",
+                "name": "atlas",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "database",
+                "id": "20e14fa8-a7e2-4ca9-96ee-393904d423b6",
+                "name": "database",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fap",
+                "id": "99d01147-7d9e-482a-8b5d-57e833a42831",
+                "name": "fap",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "federal",
+                "id": "3cdb3dc5-3c9b-4515-a8ef-1968f67277f0",
+                "name": "federal",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "federal aid primary",
+                "id": "76f914ec-b452-446f-9341-07556f65f05f",
+                "name": "federal aid primary",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "federal highway administration",
+                "id": "2c09cf17-1cda-47b2-9a4d-c9dab7c868cf",
+                "name": "federal highway administration",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fhwa",
+                "id": "7b31fdb2-fdf2-4dea-bcdb-34333153cea5",
+                "name": "fhwa",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "line",
+                "id": "d418651f-a8ac-4ec9-b594-d1919d556099",
+                "name": "line",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "linear highway",
+                "id": "c68a4083-59d5-4ed9-abf4-6364bf0897dc",
+                "name": "linear highway",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national",
+                "id": "fb279c0e-769e-4ae6-8190-13ed1d17e0af",
+                "name": "national",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national transportation atlas database",
+                "id": "cef7c943-e355-476f-9a6b-df96256840b1",
+                "name": "national transportation atlas database",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "ntad",
+                "id": "bcea467d-3a37-4a73-8c54-50c048a21d66",
+                "name": "ntad",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "primary",
+                "id": "bc407265-80db-4a03-908b-37780209b114",
+                "name": "primary",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "transportation",
+                "id": "9de63758-c817-4198-8946-25300ec44352",
+                "name": "transportation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "usa",
+                "id": "838f889f-0a0f-44e9-bd1a-01500c061aa5",
+                "name": "usa",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "vector",
+                "id": "36d57e12-370d-4be2-acbb-0293457643b8",
+                "name": "vector",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "groups": [],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "tracking_summary": {
+            "total": 10,
+            "recent": 2
+        }
+    }
+}
