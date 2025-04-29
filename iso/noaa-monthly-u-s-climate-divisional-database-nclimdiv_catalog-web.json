@@ -1,0 +1,902 @@
+{
+    "help": "https://catalog.data.gov/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+        "author": null,
+        "author_email": null,
+        "creator_user_id": "1ecd1fb1-1be6-46bb-b90d-07a0762ed104",
+        "id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+        "isopen": false,
+        "license_id": null,
+        "license_title": null,
+        "maintainer": null,
+        "maintainer_email": null,
+        "metadata_created": "2022-10-28T05:22:28.179695",
+        "metadata_modified": "2023-09-19T21:52:46.283878",
+        "name": "noaa-monthly-u-s-climate-divisional-database-nclimdiv1",
+        "notes": "This dataset replaces the previous Time Bias Corrected Divisional Temperature-Precipitation Drought Index. The new divisional data set (NClimDiv) is based on the Global Historical Climatological Network-Daily (GHCN-D) and makes use of several improvements to the previous data set. For the input data, improvements include additional station networks, quality assurance reviews and temperature bias adjustments. Perhaps the most extensive improvement is to the computational approach, which now employs climatologically aided interpolation. This 5km grid based calculation nCLIMGRID helps to address topographic and network variability. This data set is primarily used by the National Oceanic and Atmospheric Administration (NOAA) National Climatic Data Center (NCDC) to issue State of the Climate Reports on a monthly basis. These reports summarize recent temperature and precipitation conditions and long-term trends at a variety of spatial scales, the smallest being the climate division level. Data at the climate division level are aggregated to compute statewide, regional and national snapshots of climate conditions. For CONUS, the period of record is from 1895-present. Derived quantities such as Standardized precipitation Index (SPI), Palmer Drought Indices (PDSI, PHDI, PMDI, and ZNDX) and degree days are also available for the CONUS sites. \n\nIn March 2015, data for thirteen Alaskan climate divisions were added to the NClimDiv data set. Data for the new Alaskan climate divisions begin in 1925 through the present and are included in all monthly updates. Alaskan climate data include the following elements for divisional and statewide coverage: average temperature, maximum temperature (highs), minimum temperature (lows), and precipitation. The Alaska NClimDiv data were created and updated using similar methodology as that for the CONUS, but with a different approach to establishing the underlying climatology. The Alaska data are built upon the 1971-2000 PRISM averages whereas the CONUS values utilize a base climatology derived from the NClimGrid data set.\n\nAs of November 2018, NClimDiv includes county data and additional inventory files.",
+        "num_resources": 19,
+        "num_tags": 29,
+        "organization": {
+            "id": "5f4f1195-e770-4a2a-8f75-195cd98860ce",
+            "name": "noaa-gov",
+            "title": "National Oceanic and Atmospheric Administration, Department of Commerce",
+            "type": "organization",
+            "description": "",
+            "image_url": "https://fortress.wa.gov/dfw/score/score/images/noaa_logo.png",
+            "created": "2020-11-10T15:36:13.098184",
+            "is_organization": true,
+            "approval_status": "approved",
+            "state": "active"
+        },
+        "owner_org": "5f4f1195-e770-4a2a-8f75-195cd98860ce",
+        "private": false,
+        "state": "active",
+        "title": "NOAA Monthly U.S. Climate Divisional Database (NClimDiv)",
+        "type": "dataset",
+        "url": null,
+        "version": null,
+        "extras": [
+            {
+                "key": "guid",
+                "value": "gov.noaa.ncdc:C00005"
+            },
+            {
+                "key": "spatial_harvester",
+                "value": true
+            },
+            {
+                "key": "spatial-reference-system",
+                "value": ""
+            },
+            {
+                "key": "dataset-reference-date",
+                "value": "[{\"type\": \"publication\", \"value\": \"2014-03-01\"}, {\"type\": \"revision\", \"value\": \"2015-03-15\"}, {\"type\": \"revision\", \"value\": \"2018-11-15\"}]"
+            },
+            {
+                "key": "metadata-language",
+                "value": "eng; USA"
+            },
+            {
+                "key": "metadata-date",
+                "value": "2023-06-23"
+            },
+            {
+                "key": "coupled-resource",
+                "value": "[]"
+            },
+            {
+                "key": "contact-email",
+                "value": "ncei.orders@noaa.gov"
+            },
+            {
+                "key": "frequency-of-update",
+                "value": "monthly"
+            },
+            {
+                "key": "spatial-data-service-type",
+                "value": ""
+            },
+            {
+                "key": "progress",
+                "value": "onGoing"
+            },
+            {
+                "key": "resource-type",
+                "value": "dataset"
+            },
+            {
+                "key": "licence",
+                "value": "[\"Data is derived from all observations available at the time of data production.\"]"
+            },
+            {
+                "key": "access_constraints",
+                "value": "[\"Cite as: Vose, Russell S.; Applequist, Scott; Squires, Mike; Durre, Imke; Menne, Matthew J.; Williams, Claude N., Jr.; Fenimore, Chris; Gleason, Karin; Arndt, Derek (2014): NOAA Monthly U.S. Climate Divisional Database (NClimDiv). [indicate subset used]. NOAA National Climatic Data Center. doi:10.7289/V5M32STR [access date].\", \"Distribution liability: NOAA and NCEI make no warranty, expressed or implied, regarding these data, nor does the fact of distribution constitute such a warranty. NOAA and NCEI cannot assume liability for any damages caused by any errors or omissions in these data. If appropriate, NCEI can only certify that the data it distributes are an authentic copy of the records that were accepted for inclusion in the NCEI archives.\", \"Use liability: NOAA and NCEI cannot provide any warranty as to the accuracy, reliability, or completeness of furnished data. Users assume responsibility to determine the usability of these data. The user is responsible for the results of any application of this data for other than its intended purpose.\"]"
+            },
+            {
+                "key": "graphic-preview-file",
+                "value": "https://www.ncei.noaa.gov/pub/data/metadata/images/C00005.gif"
+            },
+            {
+                "key": "graphic-preview-description",
+                "value": "Divisional Average Temperature Ranks, January-December 2014"
+            },
+            {
+                "key": "graphic-preview-type",
+                "value": "GIF"
+            },
+            {
+                "key": "temporal-extent-begin",
+                "value": "1895-01-01"
+            },
+            {
+                "key": "responsible-party",
+                "value": "[{\"name\": \"NOAA National Centers for Environmental Information\", \"roles\": [\"pointOfContact\"]}, {\"name\": \"DOC/NOAA/NESDIS/NCEI > National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce\", \"roles\": [\"pointOfContact\"]}]"
+            },
+            {
+                "key": "bbox-east-long",
+                "value": "-66.0"
+            },
+            {
+                "key": "bbox-north-lat",
+                "value": "71.5"
+            },
+            {
+                "key": "bbox-south-lat",
+                "value": "24.0"
+            },
+            {
+                "key": "bbox-west-long",
+                "value": "-180.0"
+            },
+            {
+                "key": "lineage",
+                "value": "This dataset exhibits substantial differences with the previous Climate Divisional Dataset over the period 1895-2013.  The first improvement is to the input data, which now include additional station records and contemporary bias adjustments (Menne and Williams, 2009).  The second improvement is to the suite of climatic elements, which has been expanded to include both maximum and minimum temperature.  The final (and far most extensive) improvement is to the computational methodology, which now addresses topographic and network variability via climatologically aided interpolation (Willmott and Robeson, 1995)."
+            },
+            {
+                "key": "metadata_type",
+                "value": "geospatial"
+            },
+            {
+                "key": "__category_tag_16e15f51-d96e-4051-9124-75665abdc6ff",
+                "value": "[\"Atmospheric, Earth and Ocean Sciences\",\"Transportation\",\"Physical Data\",\"Water\",\"Human Health\",\"Ecosystem Vulnerability\"]"
+            },
+            {
+                "key": "old-spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, 24.0], [-66.0, 24.0], [-66.0, 71.5], [-180.0, 71.5], [-180.0, 24.0]]]}"
+            },
+            {
+                "key": "spatial",
+                "value": "{\"type\": \"Polygon\", \"coordinates\": [[[-180.0, 24.0], [-66.0, 24.0], [-66.0, 71.5], [-180.0, 71.5], [-180.0, 24.0]]]}"
+            },
+            {
+                "key": "harvest_object_id",
+                "value": "db72c52e-8628-4b13-b501-719e3b13146d"
+            },
+            {
+                "key": "harvest_source_id",
+                "value": "2cb3ef77-1683-4c2a-9119-dc65e50917c6"
+            },
+            {
+                "key": "harvest_source_title",
+                "value": "ncdc"
+            }
+        ],
+        "groups": [
+            {
+                "description": "",
+                "display_name": "Climate",
+                "id": "16e15f51-d96e-4051-9124-75665abdc6ff",
+                "image_display_url": "",
+                "name": "climate5434",
+                "title": "Climate"
+            }
+        ],
+        "resources": [
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413059",
+                "description": "Landing page for the dataset.",
+                "format": "",
+                "hash": "",
+                "id": "4727f2bc-7ea6-49f4-8414-b6561fc53fd2",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.293817",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NCEI Dataset Landing Page",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 0,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 2,
+                    "recent": 2
+                },
+                "url": "https://doi.org/10.7289/V5M32STR",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413065",
+                "description": "Overview of the Climate Divisional Dataset",
+                "format": "",
+                "hash": "",
+                "id": "56adc50c-e148-4a73-a03b-c3f68d0a42b1",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.293990",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "U.S. Climate Divisional Data Overview Page",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 1,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 10,
+                    "recent": 3
+                },
+                "url": "https://www.ncdc.noaa.gov/monitoring-references/maps/us-climate-divisions.php",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413067",
+                "description": "Direct download location for archive files",
+                "format": "",
+                "hash": "",
+                "id": "61b41315-030b-40da-9c6d-7994d4d98f9a",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.294123",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NCEI Direct Download (archive)",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 2,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 11,
+                    "recent": 6
+                },
+                "url": "https://www.ncei.noaa.gov/data/nclimdiv-monthly/access/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413069",
+                "description": "Direct download location for real-time files",
+                "format": "",
+                "hash": "",
+                "id": "183fdb0e-d54b-47e0-8da6-4f645675fb85",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.294246",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NCEI Direct Download (real-time)",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 3,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 4,
+                    "recent": 1
+                },
+                "url": "https://www.ncei.noaa.gov/pub/data/cirs/climdiv/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413070",
+                "description": "Direct download location for the documentation files",
+                "format": "",
+                "hash": "",
+                "id": "071c369e-5bdf-4bab-9131-e5d073cd88cc",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.294536",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NCEI Direct Download (dataset documentation)",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 4,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 1,
+                    "recent": 1
+                },
+                "url": "https://www.ncei.noaa.gov/data/nclimdiv-monthly/doc/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413072",
+                "description": "View Divisional Climate Data and Products via a map interface",
+                "format": "",
+                "hash": "",
+                "id": "f588d1f3-126a-4b99-b2c9-4d664e7200d5",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.294750",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Climate Data Online Map for Climate Indices",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 5,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 3,
+                    "recent": 1
+                },
+                "url": "https://www.ncei.noaa.gov/maps/indices-beta/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413074",
+                "description": "Comparisons of meteorological local, state, regional, national, data in historical perspective to determine trends.",
+                "format": "",
+                "hash": "",
+                "id": "643b3c1b-2cb7-4c7e-8d7f-f1abb095a0ef",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.294911",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Climate at a Glance National Maps",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 6,
+                "resource_locator_function": "search",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 1,
+                    "recent": 1
+                },
+                "url": "https://www.ncdc.noaa.gov/cag/national/mapping",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413075",
+                "description": "Direct download KMZ files for the data",
+                "format": "KML",
+                "hash": "",
+                "id": "5d01cad4-d19c-423b-936a-707deafec2e9",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295047",
+                "mimetype": "application/vnd.google-earth.kmz",
+                "mimetype_inner": null,
+                "name": "KMZ download",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 7,
+                "resource_locator_function": "download",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 8,
+                    "recent": 1
+                },
+                "url": "https://gis.ncdc.noaa.gov/kml/div.kmz",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413077",
+                "description": "NCEI home page with information, data access and contact information.",
+                "format": "",
+                "hash": "",
+                "id": "f4f52bb2-8b6c-4756-a0d9-3da866be9c6a",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295168",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "NOAA National Centers for Environmental Information (NCEI)",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 8,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 96,
+                    "recent": 6
+                },
+                "url": "https://www.ncei.noaa.gov",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413079",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "26bac7d0-2da2-4435-80a0-b227e64d4ac9",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295347",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 9,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413081",
+                "description": "Overview of the GCOS Essential Climate Variables.",
+                "format": "",
+                "hash": "",
+                "id": "8d204d51-7b29-4d02-a021-6b9f4851e344",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295475",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "GCOS Essential Climate Variables",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 10,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTP",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 6,
+                    "recent": 1
+                },
+                "url": "https://public.wmo.int/en/programmes/global-climate-observing-system/essential-climate-variables",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413082",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "dd10c6b5-15ce-42cd-80c6-93436059831d",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295595",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 11,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413084",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "adb5f980-a6ac-4131-a648-3c1daa0d8052",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295714",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 12,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413086",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "5e6a6079-2e26-4fef-b9e5-f87684e0c695",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295832",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 13,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413087",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "4fb7fcc6-3e9c-4b6e-984c-47983bf095e0",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.295951",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 14,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413089",
+                "description": "The information provided on this page seeks to define how the GCMD Keywords are structured, used and accessed. It also provides information on how users can participate in the further development of the keywords.",
+                "format": "",
+                "hash": "",
+                "id": "225f9b31-74b4-409d-be35-82a9df756fa8",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.296069",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Global Change Master Directory (GCMD) Keywords",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 15,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 50,
+                    "recent": 4
+                },
+                "url": "https://earthdata.nasa.gov/about/gcmd/global-change-master-directory-gcmd-keywords",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413091",
+                "description": "Vose et al. (2014). doi:10.1175/JAMC-D-13-0248.1",
+                "format": "",
+                "hash": "",
+                "id": "c6b0c6ba-b0a1-4ba1-9eb0-cfb533a00d6d",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.296187",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "Science Paper",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 16,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 2,
+                    "recent": 2
+                },
+                "url": "https://doi.org/10.1175/JAMC-D-13-0248.1",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413092",
+                "description": "A summary of national and regional temperatures and precipitation, placing the data into a historical perspective.",
+                "format": "",
+                "hash": "",
+                "id": "8793d25d-74c1-433f-bcb1-b6d3470d5016",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.296326",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "National State of the Climate",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 17,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 4,
+                    "recent": 2
+                },
+                "url": "https://www.ncdc.noaa.gov/sotc/national/",
+                "url_type": null
+            },
+            {
+                "cache_last_updated": null,
+                "cache_url": null,
+                "created": "2023-09-19T21:52:46.413094",
+                "description": "For information on the previous version of NClimDiv, please refer to the U.S. Climate Divisional Dataset (TCDD)",
+                "format": "",
+                "hash": "",
+                "id": "5db9d7ae-0762-407a-b43b-c6c1ada41743",
+                "last_modified": null,
+                "metadata_modified": "2023-09-19T21:52:46.296453",
+                "mimetype": null,
+                "mimetype_inner": null,
+                "name": "U.S. Climate Divisional Dataset (TCDD) (Version Superseded)",
+                "package_id": "92d43de6-35db-4827-b60b-3a86812e62e3",
+                "position": 18,
+                "resource_locator_function": "information",
+                "resource_locator_protocol": "HTTPS",
+                "resource_type": null,
+                "size": null,
+                "state": "active",
+                "tracking_summary": {
+                    "total": 1,
+                    "recent": 1
+                },
+                "url": "https://www.ncei.noaa.gov/metadata/geoportal/rest/metadata/item/gov.noaa.ncdc:C00702/html",
+                "url_type": null
+            }
+        ],
+        "tags": [
+            {
+                "display_name": "air temperature",
+                "id": "c3d2c6a2-4b07-4863-815e-75db35c99a9e",
+                "name": "air temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "atmosphere",
+                "id": "0e982ad4-e0e7-41bf-adaf-3b9b37213179",
+                "name": "atmosphere",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "atmospheric - surface - air temperature",
+                "id": "7c0a987e-54ff-4bed-87bd-7d53177e5407",
+                "name": "atmospheric - surface - air temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "atmospheric - surface - precipitation",
+                "id": "a1e8acaa-8496-42c4-9ac1-5d5829e5fb44",
+                "name": "atmospheric - surface - precipitation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "atmospheric temperature",
+                "id": "5d9f0745-1c7f-41ad-85b1-fcbede1cbe75",
+                "name": "atmospheric temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "continent",
+                "id": "a9b8a113-daeb-4dfd-af4a-d209b297c156",
+                "name": "continent",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "degree days",
+                "id": "9e74d109-fe1a-43b1-8edf-f40f29dbb961",
+                "name": "degree days",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "doc/noaa/nesdis/ncdc",
+                "id": "bce87bf6-cd35-4e0f-9598-4639b4f28fc4",
+                "name": "doc/noaa/nesdis/ncdc",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "doc/noaa/nesdis/ncei",
+                "id": "2a54b49c-0f5a-4746-aac6-56fc4364ed30",
+                "name": "doc/noaa/nesdis/ncei",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "earth science",
+                "id": "8c331a6c-0bcb-4cc5-964b-34a0792449b5",
+                "name": "earth science",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "fixed observation stations",
+                "id": "4fe1d9d8-66a1-4ed8-86dc-3a50e3a6d290",
+                "name": "fixed observation stations",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "land surface",
+                "id": "7af3bcb3-ff10-48b4-bd3f-f7024f3ef31b",
+                "name": "land surface",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "maximum/minimum temperature",
+                "id": "2d7fe5a1-9fb9-488a-b46a-1bd63f1b3754",
+                "name": "maximum/minimum temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "monthly climatology",
+                "id": "5e602f34-b5f8-44d3-9e11-271a4ab16679",
+                "name": "monthly climatology",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national centers for environmental information",
+                "id": "10a58a14-9088-48b1-abf3-e35e7334ea5a",
+                "name": "national centers for environmental information",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "national climatic data center",
+                "id": "c2700747-f201-4653-8183-555c32d9b8cc",
+                "name": "national climatic data center",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "nesdis",
+                "id": "8c20180c-6160-41e5-85de-313749b9ba58",
+                "name": "nesdis",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "noaa",
+                "id": "fe7a7412-17d7-4b97-8fda-c9909f9aff02",
+                "name": "noaa",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "north america",
+                "id": "67241342-124e-44fc-af5c-2a0935aeddc9",
+                "name": "north america",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "precipitation",
+                "id": "b7a5df38-d31a-4f4e-9d1b-425b3a625d99",
+                "name": "precipitation",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "precipitation amount",
+                "id": "7e0adfc4-c4d2-49ce-b5a3-a7364f6e0143",
+                "name": "precipitation amount",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "precipitation anomalies",
+                "id": "fc175f29-ca67-4b90-8c24-68df2f11e4cc",
+                "name": "precipitation anomalies",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "rain gauges",
+                "id": "3403834d-f69b-44da-ab4c-478ac8f250c9",
+                "name": "rain gauges",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "surface temperature",
+                "id": "026d9389-a7c2-4d0a-8e2c-45bc454fc156",
+                "name": "surface temperature",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "temperature anomalies",
+                "id": "ae1802bc-c851-4794-ad64-beff64bf5bc5",
+                "name": "temperature anomalies",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "temperature tendency",
+                "id": "7bada4e6-d465-43da-a1c1-9d850c84896c",
+                "name": "temperature tendency",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "thermometers",
+                "id": "516e25d0-71e5-4b24-9dda-0d877b6bd834",
+                "name": "thermometers",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "u.s. department of commerce",
+                "id": "8a36cafe-cdbf-49cd-874b-d36d7430adbe",
+                "name": "u.s. department of commerce",
+                "state": "active",
+                "vocabulary_id": null
+            },
+            {
+                "display_name": "united states of america",
+                "id": "d81db043-7ead-4b81-851c-c4d4166cfd92",
+                "name": "united states of america",
+                "state": "active",
+                "vocabulary_id": null
+            }
+        ],
+        "relationships_as_subject": [],
+        "relationships_as_object": [],
+        "tracking_summary": {
+            "total": 800,
+            "recent": 25
+        }
+    }
+}
